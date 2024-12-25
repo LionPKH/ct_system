@@ -1,0 +1,59 @@
+/* style.css */
+
+/* Общие стили для страницы */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Шапка (header) */
+header {
+    background-color: #007bff;
+}
+
+/* Навигация в шапке */
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    /* Между пунктами меню можно задать отступ */
+}
+
+header nav ul li a {
+    display: block;
+    padding: 12px 18px;
+    text-decoration: none;
+    color: #fff;
+}
+
+header nav ul li a:hover {
+    background-color: #0056b3;
+}
+
+/* Основная часть (main) */
+main {
+    padding: 20px;
+}
+
+/* Подвал (footer) */
+footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 12px 0;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}

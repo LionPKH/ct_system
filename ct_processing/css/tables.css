@@ -1,0 +1,41 @@
+/* tables.css */
+
+/* Стили заголовков H2 над таблицами */
+h2 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: 600;
+}
+
+/* Базовые стили для таблиц */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+/* Заголовки таблиц */
+table th {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: normal;
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+tr:hover {
+    background-color: #00f96c;
+    color: #fff;
+}
+/* Ячейки таблицы */
+table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Чередование цвета для чётных строк */
+/* table tr:nth-child(even) {
+    background-color: #f2f2f2;
+} */

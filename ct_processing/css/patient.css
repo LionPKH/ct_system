@@ -1,0 +1,131 @@
+/* patients.css */
+
+/* Общие стили для тела */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Контейнер для центрирования и отступов */
+.container {
+    width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Заголовки */
+h1, h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Подзаголовки */
+h2 {
+    margin-top: 40px;
+}
+
+/* Стили для форм */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 15px;
+    font-weight: 500;
+    display: block;
+}
+
+form label input[type="text"],
+form label input[type="date"],
+form label select,
+form label textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Кнопки */
+button[type="submit"],
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 16px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 150px;
+}
+
+button[type="submit"]:hover,
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Сообщения об ошибках/успехах */
+.message {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+.message.error {
+    background-color: #f2dede;
+    border: 1px solid #ebccd1;
+    color: #a94442;
+}
+.message.success {
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    color: #3c763d;
+}
+
+/* Стили для таблиц (при выводе списка пациентов) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+
+/* Ссылки */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Дополнительные стили при необходимости */
+.return-link {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.return-link a {
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.return-link a:hover {
+    background-color: #ddd;
+}

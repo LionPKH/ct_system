@@ -1,0 +1,72 @@
+/* form.css */
+
+/* Настраиваем внешний вид body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Выравниваем контейнер (если нужно) */
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Стили заголовка */
+h1 {
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Флеш-сообщения (если flash() добавляет какой-то класс, можно стилизовать) */
+.flash-message {
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+/* Пример стилизации ошибки (если flash() выводит ошибку) */
+.flash-error {
+    background-color: #f2dede;
+    color: #a94442;
+    border: 1px solid #ebccd1;
+}
+
+/* Пример стилизации успеха (если flash() выводит успех) */
+.flash-success {
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #d6e9c6;
+}
+
+/* Стили для кнопок, если хотим переопределить классы Bootstrap или добавить свои */
+.btn-primary {
+    background-color: #4b8df9;
+    border-color: #357ae8;
+}
+
+.btn-primary:hover {
+    background-color: #357ae8;
+}
+
+/* Форма */
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Поля формы */
+form .form-control {
+    margin-bottom: 15px;
+}
+
+/* Пример стилизации ссылок */
+a {
+    text-decoration: none;
+    color: #357ae8;
+}
+a:hover {
+    color: #23527c;
+}
